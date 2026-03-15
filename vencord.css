@@ -217,7 +217,7 @@ body {
         -webkit-background-clip: text;
         -webkit-text-fill-color: transparent;
         background-size: 200% auto;
-        animation: textShine 1.5s linear infinite reverse;
+        animation: textShine 3s linear infinite reverse;
     }
     .text_a2f514 {
         position: static;
