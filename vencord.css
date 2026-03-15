@@ -17,7 +17,11 @@ body {
     --code-font: 'DM Mono'; /* change to '' for default discord font */
     font-weight: 300; /* text font weight. 300 is light, 400 is normal. DOES NOT AFFECT BOLD TEXT */
     letter-spacing: -0.05ch; /* decreases letter spacing for better readability. recommended on monospace fonts.*/
-
+    --background-image: on; /* enable background image */
+    --background-image-url: url('https://github.com/linuxuser3214-jpg/cssvencord/blob/main/thunderstorm-countryside.jpg?raw=true'); /* URL of the Thunderstorm Countryside image */
+    --background-image-size: cover; /* background size */
+    --background-image-position: center; /* center the background */
+    --background-color: rgba(0, 0, 0, 0.7);
     /* sizes */
     --gap: 12px; /* spacing between panels */
     --divider-thickness: 4px; /* thickness of unread messages divider and highlighted message borders */
