@@ -78,6 +78,14 @@ body {
     --label-color: var(--text-muted); /* color of labels */
     --label-font-weight: 500; /* font weight of labels */
 }
+body {
+    background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSeqmL7NL8_9vV5LCGQ9q9znyNRAxgyXGV3IR5waNaBiKCD_TiXZWwpY3RYc1tC25Xzp8tLo4eAildAC1PYS0T-tG0DT3QzHgfdNYoQymVD4g&s=10');
+    background-size: cover; /* Make sure the image covers the entire body */
+    background-position: center center; /* Center the image */
+    background-repeat: no-repeat; /* Don't repeat the image */
+    height: 100vh; /* Full viewport height */
+    margin: 0; /* Remove default margin */
+}
 
 /* color options */
 :root {
