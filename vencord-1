@@ -1,0 +1,32 @@
+/* main.css */
+
+/* Import required files */
+@import url('https://refact0r.github.io/midnight-discord/build/midnight.css');
+@import url('https://fonts.googleapis.com/css2?family=DM+Mono:ital,wght@0,300;0,400;0,500;1,300;1,400;1,500&display=swap');
+
+@font-face {
+    font-family: 'asciid';
+    font-style: normal;
+    font-weight: 400;
+    src: local('asciid'), url('https://refact0r.github.io/system24/assets/asciid.woff') format('woff');
+}
+
+body {
+    --font: 'DM Mono'; /* Font */
+    --code-font: 'DM Mono'; /* Code font */
+    font-weight: 300; /* Font weight */
+    letter-spacing: -0.05ch; /* Adjust letter spacing for better readability */
+
+    /* Remove any previous background-image declaration to avoid conflicts */
+    background: none !important; /* Make sure there are no previous background-image settings */
+
+    /* Directly apply background image */
+    background-image: url('https://github.com/linuxuser3214-jpg/cssvencord/blob/main/thunderstorm-countryside.jpg?raw=true'); /* Set the image URL */
+    background-size: cover; /* Make the image cover the entire screen */
+    background-position: center center; /* Position the image at the center */
+    background-repeat: no-repeat; /* Prevent repeating the image */
+    height: 100vh; /* Ensure full viewport height */
+    margin: 0; /* Remove any default margin */
+}
+
+/* You can keep other styles as is */
